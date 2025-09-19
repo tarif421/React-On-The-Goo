@@ -2,5 +2,10 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: left;
+}
+.card {
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
 }
