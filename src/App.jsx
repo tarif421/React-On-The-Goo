@@ -10,13 +10,7 @@ function App() {
   return (
     <>
       <h2>React on the go</h2>
-      <Suspense
-        fallback={
-          <p>
-            <span class="loading loading-bars loading-xl"></span>
-          </p>
-        }
-      >
+      <Suspense fallback={<p>Loading...</p>}>
         <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>
     </>
